@@ -1,0 +1,22 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.env
+web-build/
+package-lock.json
+public/bundle.js
+public/bundle.js.map
+npm-debug.log
+HerokuInfo.md
+
+
+
+# macOS
+.DS_Store

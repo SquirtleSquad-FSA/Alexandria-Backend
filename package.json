@@ -1,0 +1,24 @@
+{
+    "name": "backendrefresher",
+    "version": "1.0.0",
+    "description": "relearning backend",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/vision": "^2.4.2",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "firebase-admin": "^10.0.2",
+        "nodemon": "^2.0.15",
+        "pg": "^8.7.1",
+        "sql-template-strings": "^2.2.2"
+    },
+    "engines": {
+        "node": "16.13.0"
+    }
+}
