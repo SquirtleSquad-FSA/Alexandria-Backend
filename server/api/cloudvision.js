@@ -30,6 +30,9 @@ router.post('/', async (req, res, err) => {
     try {
         const photoloc = await req.body.photouri
         let text = await detectText(photoloc)
+        if (text === null) {
+            text = `Bad photo try agin`
+        }
         res.send(text)
     } catch (e) {
         console.log(e)
