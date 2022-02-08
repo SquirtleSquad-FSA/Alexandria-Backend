@@ -30,6 +30,7 @@ router.post('/', async (req, res, err) => {
     try {
         const photoloc = await req.body.photouri
         let text = await detectText(photoloc)
+        console.log(text)
         if (text !== null) {
             res.send(text)
         } else {
